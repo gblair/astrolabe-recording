@@ -45,6 +45,14 @@ h1, h2, h3, h4, h5, figure, figcaption {
     margin-top: inherit;
     flex-direction: row; } }
 
+@media only screen and (max-height: 800px) {
+  .top-bar {
+    position: inherit; }
+  .main {
+    min-height: inherit; }
+  .logo {
+    margin-top: inherit; } }
+
 .album {
   text-align: center;
   margin: 0 0 20px; }
