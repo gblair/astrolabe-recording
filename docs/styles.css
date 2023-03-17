@@ -1,3 +1,4 @@
+@import url(_normalize.css);
 html, body {
   height: 100%; }
 
@@ -36,8 +37,10 @@ h1, h2, h3, h4, h5, figure, figcaption {
   margin-top: 150px; }
 
 @media only screen and (min-width: 576px) {
-  .top-bar {
+  .logo {
     max-height: 200px; }
+  .top-bar {
+    height: 190px; }
   .content {
     margin-top: inherit;
     flex-direction: row; } }

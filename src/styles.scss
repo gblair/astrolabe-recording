@@ -51,8 +51,11 @@ h1, h2, h3, h4, h5, figure, figcaption {
   margin-top: $logoHeight;
 }
 @media only screen and (min-width: 576px) {
-  .top-bar {
+  .logo {
     max-height: $logoHeight + 50px;
+  }
+  .top-bar {
+    height: $logoHeight + 40px;
   }
 
   .content {
