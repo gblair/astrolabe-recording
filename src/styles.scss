@@ -1,5 +1,3 @@
-@import "_normalize.css";
-
 $logoHeight: 150px;
 $radius: 3px;
 
@@ -63,18 +61,6 @@ h1, h2, h3, h4, h5, figure, figcaption {
     flex-direction: row;
   }
 }
-
-//@media only screen and (max-height: 800px) {
-//  .top-bar {
-//    position: inherit;
-//  }
-//  .main {
-//    min-height: inherit;
-//  }
-//  .logo {
-//    margin-top: inherit;
-//  }
-//}
 
 .album {
   text-align: center;
