@@ -1,5 +1,5 @@
 $logoHeight: 150px;
-$radius: 3px;
+$radius: 0;
 
 @mixin radius {
   border-radius: $radius;
@@ -86,8 +86,16 @@ ul.audio {
 
 .button {
   display: inline-block;
-  padding: 10px;
+  padding: 14px 24px;
+  font-size: 18px;
   @include radius;
-  background: black;
-  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  //background: black;
+  border: 3px solid black;
+  //color: #fff;
+  &:hover {
+    background: #000000;
+    color: #fff;
+  }
 }
